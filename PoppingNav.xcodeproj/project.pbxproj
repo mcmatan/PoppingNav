@@ -13,6 +13,7 @@
 		8AF82BEB20F5F5FA00325CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF82BEA20F5F5FA00325CDB /* Assets.xcassets */; };
 		8AF82BEE20F5F5FA00325CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF82BEC20F5F5FA00325CDB /* LaunchScreen.storyboard */; };
 		8AF82BF920F5F5FA00325CDB /* PoppingNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF82BF820F5F5FA00325CDB /* PoppingNavTests.swift */; };
+		8AF82C0520F5F62D00325CDB /* PoppingNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF82C0420F5F62D00325CDB /* PoppingNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8AF82BF420F5F5FA00325CDB /* PoppingNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoppingNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF82BF820F5F5FA00325CDB /* PoppingNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppingNavTests.swift; sourceTree = "<group>"; };
 		8AF82BFA20F5F5FA00325CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF82C0420F5F62D00325CDB /* PoppingNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppingNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		8AF82BE220F5F5F600325CDB /* PoppingNav */ = {
 			isa = PBXGroup;
 			children = (
+				8AF82C0320F5F60500325CDB /* PoppingNav */,
 				8AF82BE320F5F5F600325CDB /* AppDelegate.swift */,
 				8AF82BE520F5F5F600325CDB /* ViewController.swift */,
 				8AF82BE720F5F5F600325CDB /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				8AF82BFA20F5F5FA00325CDB /* Info.plist */,
 			);
 			path = PoppingNavTests;
+			sourceTree = "<group>";
+		};
+		8AF82C0320F5F60500325CDB /* PoppingNav */ = {
+			isa = PBXGroup;
+			children = (
+				8AF82C0420F5F62D00325CDB /* PoppingNav.swift */,
+			);
+			path = PoppingNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF82C0520F5F62D00325CDB /* PoppingNav.swift in Sources */,
 				8AF82BE620F5F5F600325CDB /* ViewController.swift in Sources */,
 				8AF82BE420F5F5F600325CDB /* AppDelegate.swift in Sources */,
 			);
